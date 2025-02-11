@@ -8,6 +8,9 @@ Targeted toward Digilent Basys3. Make sure to install the [board files](https://
 
 Tested on Vivado 2024.2
 
+![ripple_adder waveform](ripple_waveform.png)
+![top_baysis3 entity sketch](sketch.png)
+
 ---
 
 ## GitHub Actions Testbench
@@ -22,3 +25,7 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+## Documentation
+
+No help received.
